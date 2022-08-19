@@ -7,6 +7,99 @@
   pointer-events: none;
 }
 
+/*Header Style*/
+.header {
+  background-color: orange;
+  height: 100px;
+}
+
+.cart-div {
+  float: right;
+  margin: 25px;
+  position: relative;
+}
+
+.cart-div img {
+  width: 30px;
+}
+
+.cart-div span {
+  position: absolute;
+  z-index: 5;
+  background-color: green;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: #fff;
+  top: -10px;
+  right: 0px;
+}
+
+/*Product UI CSS*/
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-container .product-item {
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+}
+
+.logo {
+  float: left;
+  margin: 0;
+  padding: 20px;
+}
+
+/*cart style*/
+
+.cart-page-container {
+  display: flex;
+  margin: 0px 30px;
+}
+
+.cart-page-container table {
+  flex: 65%;
+  border-collapse: collapse;
+}
+
+.cart-page-container table td {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.price-details {
+  flex: 35%;
+  margin: 0px 30px;
+}
+
+.price-details .adjust-price {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.price-details .adjust-price span {
+  font-size: 20px;
+}
+
+.search-box {
+  float: left;
+  padding: 25px;
+  width: 50%;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #888;
+  padding-left: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +125,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
