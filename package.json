@@ -2,7 +2,7 @@
   "name": "complete-react-latest-project",
   "homepage": "https://github.com/rohitkawatra0897/ecomm-website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.4",
     "@testing-library/jest-dom": "^5.16.5",
