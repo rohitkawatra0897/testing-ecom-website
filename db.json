@@ -1,0 +1,76 @@
+{
+    "product": [
+        {
+            "id": 1,
+            "name": "Samsung m40",
+            "color": "Black",
+            "price": 15000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Samsung F20",
+            "color": "White",
+            "price": 25000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Redmi Note 7",
+            "color": "Blue",
+            "price": 17000,
+            "category": "Mobile",
+            "brand": "Redmi",
+            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Realme 9 pro",
+            "color": "orange",
+            "price": 20000,
+            "category": "Mobile",
+            "brand": "Realme",
+            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Shirt",
+            "color": "red",
+            "price": 1000,
+            "category": "Clothes",
+            "brand": "COBB",
+            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+        },
+        {
+            "id": 6,
+            "name": "POCO f4",
+            "color": "red",
+            "price": 23000,
+            "category": "Mobile",
+            "brand": "POCO",
+            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Infinix 11",
+            "color": "grey",
+            "price": 33000,
+            "category": "Laptop",
+            "brand": "Infinix",
+            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+        },
+        {
+            "id": 8,
+            "name": "motorola g7",
+            "color": "yellow",
+            "price": 10000,
+            "category": "Mobile",
+            "brand": "Motorolas",
+            "photo": "https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg"
+        }
+    ]
+}
