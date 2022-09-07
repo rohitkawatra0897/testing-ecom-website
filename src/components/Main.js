@@ -20,12 +20,11 @@ function Main() {
             <div className='product-container'>
                 {
                     data.map((item) => <div key={item.id} className='product-item'>
-                        <img src={item.photo} alt="" />
-                        <div>Name : {item.name} </div>
-                        <div>Color : {item.color} </div>
-                        <div>Price : {item.price} </div>
-                        <div>Category : {item.category} </div>
-                        <div>Brand : {item.brand} </div>
+
+                        <div>User ID : {item.userId} </div>
+                        <div>Id : {item.id} </div>
+                        <div>Title : {item.title} </div>
+                        <div>Completed : {item.body} </div>
                         <div>
                             <button onClick={() => dispatch(addToCart(item))} >Add to Cart</button>
                             <button onClick={() => dispatch(removeFromCart(item.id))}>Remove to Cart</button>

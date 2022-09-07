@@ -12,19 +12,18 @@ const Cart = () => {
             <table>
                 <tbody>
                     <tr>
-                        <td>Name</td>
-                        <td>Color</td>
-                        <td>Price</td>
-                        <td>Brand</td>
-                        <td>Category</td>
+                        <td>User Id</td>
+                        <td>Id</td>
+                        <td>Title</td>
+                        <td>Body</td>
+
                     </tr>
                     {
                         cartData.map((item) => <tr key={item.key}>
-                            <td>{item.name}</td>
-                            <td>{item.color}</td>
-                            <td>{item.price}</td>
-                            <td>{item.brand}</td>
-                            <td>{item.category}</td>
+                            <td>{item.userId}</td>
+                            <td>{item.id}</td>
+                            <td>{item.title}</td>
+                            <td>{item.body}</td>
                         </tr>)
                     }
                 </tbody>
